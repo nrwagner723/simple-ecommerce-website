@@ -29,3 +29,22 @@ html {
     top: 2px;
     right: 5px;
 }
+
+.gradient {
+    position: relative;
+}
+
+.gradient::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(circle, #ffffff00, #ffffff00, #000000, #000000, #000000);
+    opacity: 0.6;
+}
+
+.mirror-img {
+    transform: scaleX(-1);
+}

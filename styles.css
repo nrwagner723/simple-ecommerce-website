@@ -1,0 +1,31 @@
+*, 
+*::before, 
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.search {
+    position: relative;
+    width: 240px;
+}
+
+.search input {
+    border: solid 1px black;
+    background-color: #fff;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.search img {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+}

@@ -12,13 +12,13 @@
     <header>
         <nav>
             <ul>
-                <li><a href="">HOME</a></li>
-                <li><a href="">PRODUCTS</a></li>
-                <li><a href="">ABOUT</a></li>
-                <li><a href="">CONTACT</a></li>
-                <li><a href="">CARA</a></li>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#products">PRODUCTS</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li>CARA</li>
                 <li><img src="assets/icons8-pottery-96.png" width=25></li>
-                <li><a href="">CARA</a></li>
+                <li>CARA</li>
             </ul>
             <div class="search">
                 <input type="text">
@@ -30,27 +30,27 @@
         </nav>
     </header>
     <main>
-        <div class="main-img">
-            <div class="gradient">
+        <div class="main-img" id="home">
+            <div class="container">
                 <img src="assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" width=100% alt="person doing pottery">
+                <h1 class="top-left">CERAMICS CRAFTED <br> BY HAND...</h1>
+                <h1 class="bottom-right">...FROM THE <br> GROUND UP</h1>
             </div>
-            <h1>CERAMICS CRAFTED BY HAND...</h1>
-            <h1>...FROM THE GROUND UP</h1>
         </div>
-        <div class="about-us">
+        <div class="about-us" id="about">
             <h1>ABOUT US</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer feugiat scelerisque varius morbi. Quam quisque id diam vel quam. Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Cras adipiscing enim eu turpis. Interdum velit euismod in pellentesque massa placerat duis ultricies lacus. Volutpat maecenas volutpat blandit aliquam etiam. Blandit massa enim nec dui nunc. Arcu cursus euismod quis viverra nibh cras pulvinar. Sed velit dignissim sodales ut eu sem integer. Vitae congue eu consequat ac felis donec et. Lacus vestibulum sed arcu non odio euismod lacinia. Dui nunc mattis enim ut tellus elementum sagittis vitae et. Morbi quis commodo odio aenean sed adipiscing. Morbi leo urna molestie at. Pellentesque habitant morbi tristique senectus. Vel pretium lectus quam id leo.</p>
-            <img src="assets/Vase_Dame_2048x2048.jpg" alt="white vase with leafy plant">
+            <img src="assets/Vase_Dame_2048x2048.jpg" alt="white vase with leafy plant" width="300">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer feugiat scelerisque varius morbi. Quam quisque id diam vel quam. Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Cras adipiscing enim eu turpis. Interdum velit euismod in pellentesque massa placerat duis ultricies lacus. Volutpat maecenas volutpat blandit aliquam etiam. Blandit massa enim nec dui nunc. Arcu cursus euismod quis viverra nibh cras pulvinar. Sed velit dignissim sodales ut eu sem integer. Vitae congue eu consequat ac felis donec et. Lacus vestibulum sed arcu non odio euismod lacinia. Dui nunc mattis enim ut tellus elementum sagittis vitae et. Morbi quis commodo odio aenean sed adipiscing. Morbi leo urna molestie at. Pellentesque habitant morbi tristique senectus. Vel pretium lectus quam id leo.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer feugiat scelerisque varius morbi. Quam quisque id diam vel quam. Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Cras adipiscing enim eu turpis. Interdum velit euismod in pellentesque massa placerat duis ultricies lacus. Volutpat maecenas volutpat blandit aliquam etiam. Blandit massa enim nec dui nunc. Arcu cursus euismod quis viverra nibh cras pulvinar. Sed velit dignissim sodales ut eu sem integer. Vitae congue eu consequat ac felis donec et. Lacus vestibulum sed arcu non odio euismod lacinia. Dui nunc mattis enim ut tellus elementum sagittis vitae et. Morbi quis commodo odio aenean sed adipiscing. Morbi leo urna molestie at. Pellentesque habitant morbi tristique senectus. Vel pretium lectus quam id leo.</p>
-            <img src="assets/Cylinder_unglazed3_2048x2048.jpg" alt="fluffy brown plant" class="mirror-img">
+            <img src="assets/Cylinder_unglazed3_2048x2048.jpg" alt="fluffy brown plant" class="mirror-img" width="300">
         </div>
-        <div class="our-products">
+        <div class="our-products" id="products"> 
             <h1>OUR PRODUCTS</h1>
             <div class="products">
                 <div class="prod__card">
                     <div class="img-wrapper">
-                        <img class="prod__card--img" src="assets/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="one large ceramic bowl behind two small ceramic bowls" height="300rem">
+                        <a href="#products"><img class="prod__card--img" src="assets/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="one large ceramic bowl behind two small ceramic bowls" width="100%"></a>
                     </div>
                     <h2>MUNDO BOWLS</h2>
                     <h2>$48.00</h2>
@@ -60,7 +60,7 @@
                 </div>
                 <div class="prod__card">
                     <div class="img-wrapper">
-                        <img class="prod__card--img" src="assets/oriento-maVIpNNtmlQ-unsplash.jpg" alt="dark red vase" height="300rem">
+                        <a href="#products"><img class="prod__card--img" src="assets/oriento-maVIpNNtmlQ-unsplash.jpg" alt="dark red vase" width="100%"></a>
                     </div>
                     <h2>NATUREZA VASE</h2>
                     <h2>$37.00</h2>
@@ -70,7 +70,7 @@
                 </div>
                 <div class="prod__card">
                     <div class="img-wrapper">
-                        <img class="prod__card--img" src="assets/tom-crew-bgIO-u4GEfI-unsplash.jpg" alt="two shiny ceramic bowls" height="300rem">
+                        <a href="#products"><img class="prod__card--img" src="assets/tom-crew-bgIO-u4GEfI-unsplash.jpg" alt="two shiny ceramic bowls" width="100%"></a>
                     </div>
                     <h2>FEIRA BOWLS</h2>
                     <h2>$29.00</h2>
@@ -80,7 +80,7 @@
                 </div>
                 <div class="prod__card">
                     <div class="img-wrapper">
-                        <img class="prod__card--img" src="assets/tom-crew-3uwu5K0RtaE-unsplash.jpg" alt="two gray ceramic pots" height="300rem">
+                        <a href="#products"><img class="prod__card--img" src="assets/tom-crew-3uwu5K0RtaE-unsplash.jpg" alt="two gray ceramic pots" width="100%"></a>
                     </div>
                     <h2>NATUREZA POTS</h2>
                     <h2>$59.00</h2>
@@ -90,7 +90,7 @@
                 </div>
                 <div class="prod__card">
                     <div class="img-wrapper">
-                        <img class="prod__card--img" src="assets/linh-le-a0rE64YJDA4-unsplash.jpg" alt="small oval shaped vase" height="300rem">
+                        <a href="#products"><img class="prod__card--img" src="assets/linh-le-a0rE64YJDA4-unsplash.jpg" alt="small oval shaped vase" width="100%"></a>
                     </div>
                     <h2>PEDRA VASE</h2>
                     <h2>$31.00</h2>
@@ -100,7 +100,7 @@
                 </div>
                 <div class="prod__card">
                     <div class="img-wrapper">
-                        <img class="prod__card--img" src="assets/tom-crew-oiZAQvxTcYQ-unsplash.jpg" alt="two rustic gray pots" height="300rem">
+                        <a href="#products"><img class="prod__card--img" src="assets/tom-crew-oiZAQvxTcYQ-unsplash.jpg" alt="two rustic gray pots" width="100%"></a>
                     </div>
                     <h2>VIAJA POTS</h2>
                     <h2>$57.00</h2>
@@ -110,7 +110,7 @@
                 </div>
                 <div class="prod__card">
                     <div class="img-wrapper">
-                        <img class="prod__card--img" src="assets/tom-crew-YA2E3d7a9Wo-unsplash.jpg" alt="white ceramic plates" height="300rem">
+                        <a href="#products"><img class="prod__card--img" src="assets/tom-crew-YA2E3d7a9Wo-unsplash.jpg" alt="white ceramic plates" width="100%"></a>
                     </div>
                     <h2>SERVI&CcedilO PLATES</h2>
                     <h2>$35.00</h2>
@@ -120,7 +120,7 @@
                 </div>
                 <div class="prod__card">
                     <div class="img-wrapper">
-                        <img class="prod__card--img" src="assets/oriento-l0ah3UBLppo-unsplash.jpg" alt="dark blue vase" height="300rem">
+                        <a href="#products"><img class="prod__card--img" src="assets/oriento-l0ah3UBLppo-unsplash.jpg" alt="dark blue vase" width="100%"></a>
                     </div>
                     <h2>CAMPE&AtildeO VASE</h2>
                     <h2>$37.00</h2>
@@ -130,17 +130,17 @@
                 </div>
                 <div class="prod__card">
                     <div class="img-wrapper">
-                        <img class="prod__card--img" src="assets/tom-crew-SITGdvztUdg-unsplash.jpg" alt="off white ceramic bowls" height="300rem">
+                        <a href="#products"><img class="prod__card--img" src="assets/tom-crew-SITGdvztUdg-unsplash.jpg" alt="off white ceramic bowls" width="100%"></a>
                     </div>
                     <h2>TROCA BOWLS</h2>
                     <h2>$25.00</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer feugiat scelerisque varius morbi. Quam quisque id diam vel quam. Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Cras adipiscing enim eu turpis. Interdum velit euismod in pellentesque massa placerat duis ultricies lacus. Volutpat maecenas volutpat blandit aliquam etiam.</p>
-                    <h4><a href="">LEARN MORE</a></h4>
+                    <h4><a href="#products">LEARN MORE</a></h4>
                     <button type="button">ADD TO CART</button>
                 </div>
             </div>
         </div>
-        <div class="contact-us">
+        <div class="contact-us" id="contact">
             <h1>CONTACT US</h1>
             <form>
                 <label for="email">EMAIL</label><br>
